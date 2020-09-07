@@ -114,20 +114,6 @@ section{
     background-color: #e3e2e2!important;
     border-color: #dee2e6 #dee2e6 #fff!important;
 }
-#view-resume,
-#hide-resume{
-    color: rgb(52, 152, 219);
-    cursor: pointer;
-    margin: auto;
-}
-#view-resume:hover,
-#hide-resume:hover{
-    text-decoration: underline;
-}
-
-#hide-resume svg{
-    transform: rotate(180deg)
-}
 #education, #work{
     background-color: #e3e2e2;
     padding: 1rem;
