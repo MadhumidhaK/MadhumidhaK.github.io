@@ -20,7 +20,7 @@
 
 .percent .svg-circle circle:nth-child(1){
     stroke-dashoffset: 0;
-    stroke: #f3f3f3;
+    stroke: #dfdddd;
 }
 
 .percent .svg-circle circle:nth-child(2){
