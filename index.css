@@ -50,7 +50,7 @@ a:hover{
    
     
 }
-.nav-link.current {
+.nav-link.active {
     color: #363d44!important;
     background-color: #e3e2e2!important;
     border-color: #dee2e6 #dee2e6 #fff!important;
@@ -116,7 +116,7 @@ section{
 .intro{
     font-size: 20px;
 }
-.active{
+.current{
     color: #e69e43;
 }
 #education, #work{
