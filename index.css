@@ -1,6 +1,10 @@
+html {
+    scroll-behavior: smooth;
+  }
 body{
     font-family: 'Montserrat', sans-serif;
     background-color: whitesmoke;
+    position: relative;
 }
 a,
 a:hover{
@@ -34,7 +38,9 @@ a:hover{
 .top-nav-items{
     display: none;
 }
-
+.top-nav-item{
+    color: rgba(255,255,255,.7);
+}
 @media (min-width: 48rem){
     .top-nav-items{
         list-style: none;
@@ -44,29 +50,27 @@ a:hover{
    
     
 }
-
+.nav-link.current {
+    color: #363d44!important;
+    background-color: #e3e2e2!important;
+    border-color: #dee2e6 #dee2e6 #fff!important;
+}
 
 .brand-link{
     padding: .5rem;
     color: white;
     z-index: 70;
 }
-.top-nav-link{
+.top-nav-link,
+.top-nav-link:hover{
     padding: .7rem;
-    color: rgba(255,255,255,.7);
+    color: inherit;
 }
 
-.top-nav-link:hover,
+.top-nav-item:hover,
 .brand-link:hover{
     color: rgba(255,255,255,.9);
 }
-
-.active .top-nav-link{
-    color: white;
-    border-bottom: 1px solid whitesmoke ;
-}
-
-
 .full-backdrop{
     position: fixed;
     width: 100vw;
@@ -112,10 +116,8 @@ section{
 .intro{
     font-size: 20px;
 }
-.nav-link.active {
-    color: #363d44!important;
-    background-color: #e3e2e2!important;
-    border-color: #dee2e6 #dee2e6 #fff!important;
+.active{
+    color: #e69e43;
 }
 #education, #work{
     background-color: #e3e2e2;
