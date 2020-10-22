@@ -117,7 +117,7 @@ section{
     font-size: 20px;
 }
 .current{
-    color: #e69e43;
+    color: #e69e43!important;
 }
 #education, #work{
     background-color: #e3e2e2;
