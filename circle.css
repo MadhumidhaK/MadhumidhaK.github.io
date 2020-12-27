@@ -31,6 +31,7 @@
 
 .p-60{
     stroke-dashoffset: 176!important;  
+    /* (440 - (440 * num)/ 100) */
 }
 
 .p-70{
@@ -43,6 +44,10 @@
 
 .p-80{
     stroke-dashoffset: 88!important;    
+}
+
+.p-85{
+    stroke-dashoffset: 66!important;    
 }
 
 

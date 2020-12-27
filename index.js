@@ -39,12 +39,15 @@ $(document).ready(function(){
 
     window.addEventListener("scroll", event => {
       let fromTop = window.scrollY;
+      // console.log("From Top: " + fromTop);
       mainNavLinks.forEach(link => {
         if(link.hash){
           let section = document.querySelector(link.hash);
-        if (  
-            section.offsetTop <= fromTop &&
-            section.offsetTop + section.offsetHeight - 150 > fromTop || 
+          let pos = section.getBoundingClientRect().top;
+          // console.log(section.getBoundingClientRect().top);
+          // console.log("section.offsetHeight: " + section.offsetHeight);
+        if ( 
+            -pos > -20 && -pos <= section.offsetHeight || 
             isInViewport(section)
           ) {
             let existing = document.querySelector(".current");
@@ -69,7 +72,3 @@ $(document).ready(function(){
     }
       
 })
-
-
-
-
