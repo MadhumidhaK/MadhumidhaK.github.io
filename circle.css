@@ -34,6 +34,10 @@
     /* (440 - (440 * num)/ 100) */
 }
 
+.p-65{
+    stroke-dashoffset: 154!important; 
+}
+
 .p-70{
     stroke-dashoffset: 132!important;    
 }
